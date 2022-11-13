@@ -1,0 +1,62 @@
+body{
+    position: relative;
+}
+.bg-text{
+	position: relative;
+	
+}
+
+.bg-text:before
+{ 
+    font-size: 3vh;
+    content: "Hungry? search something.. lets cook together";
+    position: absolute;
+    z-index: -1;
+    left: 40%;
+    color: rgb(187, 182, 182);
+}
+
+
+.result_holder{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.search_results{
+    /*/position: relative;*/
+    position: absolute;
+    left: 32%;
+}
+
+.item{
+    height: 10vh;
+    width: 45vw;
+    background-color: #FFFAE7;
+    position: relative;
+    border-radius: 10%;
+    border: 2px solid;
+}
+
+.like {     
+    background-color:#6B728E;    
+}
+
+#img{
+    height: 40vh;
+    width: 25vw;
+    border-radius: 20%;
+}
+
+.holder{
+    background-color: #FFFAE7;
+}
+
+.bg-textfav:before{
+
+font-size: 3vh;
+    content: "Noting added as fav's yet";
+    position: absolute;
+    z-index: -1;
+    left: 40%;
+    color: rgb(187, 182, 182);
+}

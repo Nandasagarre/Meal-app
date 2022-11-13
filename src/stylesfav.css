@@ -1,0 +1,39 @@
+body{
+    position: relative;
+}
+
+
+.result_holder{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.yourfavs{
+    /*/position: relative;*/
+    position: absolute;
+    left: 32%;
+}
+
+.item{
+    height: 10vh;
+    width: 45vw;
+    background-color: #FFFAE7;
+    position: relative;
+    border-radius: 10%;
+    border: 2px solid;
+}
+
+.like {     
+    background-color:red;    
+}
+
+
+.bg-textfav:before{
+
+font-size: 3vh;
+    content: "Noting added as fav's yet";
+    position: absolute;
+    z-index: -1;
+    left: 40%;
+    color: rgb(187, 182, 182);
+}
